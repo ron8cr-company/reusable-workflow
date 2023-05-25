@@ -1,5 +1,6 @@
 Name: Starter Workflow Demo
 on:
+  workflow_call:
   push:
     branches: [ $default-branch ]
   pull_request:
